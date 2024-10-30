@@ -1,4 +1,4 @@
-## Instrucciones
+## Reto 1
 
 Durante la noche de Halloween 🎃, una bruja 🧙‍♀️ está preparando una mezcla mágica. Tiene una lista de pociones, cada una con un poder asociado, y quiere combinar dos de ellas para obtener un poder total específico.
 
