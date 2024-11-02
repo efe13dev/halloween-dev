@@ -1,4 +1,4 @@
-const EMPATE = 0;
+const DRAW = 0;
 
 function battleHorde(zombies: string, humans: string): string {
   if (zombies.length !== humans.length) {
@@ -11,8 +11,8 @@ function battleHorde(zombies: string, humans: string): string {
     difference += parseInt(zombies[i]) - parseInt(humans[i]);
   }
 
-  if (difference === EMPATE) return 'x';
-  return difference > EMPATE ? `${difference}z` : `${-difference}h`;
+  if (difference === DRAW) return 'x';
+  return difference > DRAW ? `${difference}z` : `${-difference}h`;
 }
 
 // Pruebas
