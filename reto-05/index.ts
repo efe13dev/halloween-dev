@@ -1,4 +1,4 @@
-function escapePyramidHead(room: string[][]): number {
+export function escapePyramidHead(room: string[][]): number {
   // Encontrar posiciones iniciales usando flat()
   const flatRoom = room.flat();
   const pyramidIndex = flatRoom.indexOf('▲');
