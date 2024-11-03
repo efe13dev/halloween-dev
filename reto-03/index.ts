@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-magic-numbers */
-
 const dream = [
   [1, 3, 1],
   [1, 5, 1],

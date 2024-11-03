@@ -4,5 +4,10 @@ export default [
   {
     ...love,
     files: ['**/*.js', '**/*.ts']
+  },
+  {
+    rules: {
+      '@typescript-eslint/no-magic-numbers': 'off'
+    }
   }
 ];

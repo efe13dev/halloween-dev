@@ -2,10 +2,14 @@
   "name": "hallowen-dev",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "eslint": "^9.13.0",
-    "eslint-config-love": "^96.0.0"
+    "eslint-config-love": "^96.0.0",
+    "vitest": "^2.1.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

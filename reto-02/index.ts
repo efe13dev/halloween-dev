@@ -1,5 +1,3 @@
-const DRAW = 0;
-
 function battleHorde(zombies: string, humans: string): string {
   if (zombies.length !== humans.length) {
     throw new Error('Las cadenas deben tener la misma longitud');
@@ -11,8 +9,8 @@ function battleHorde(zombies: string, humans: string): string {
     difference += parseInt(zombies[i]) - parseInt(humans[i]);
   }
 
-  if (difference === DRAW) return 'x';
-  return difference > DRAW ? `${difference}z` : `${-difference}h`;
+  if (difference === 0) return 'x';
+  return difference > 0 ? `${difference}z` : `${-difference}h`;
 }
 
 // Pruebas
