@@ -1,4 +1,4 @@
-function findTheKiller(whisper: string, suspects: string[]): string {
+export function findTheKiller(whisper: string, suspects: string[]): string {
   const whisperLower = whisper.toLowerCase();
   const DOLLAR_SIGN_LENGTH = 1;
   const isComplete = whisperLower.endsWith('$');
