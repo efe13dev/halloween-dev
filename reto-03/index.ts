@@ -4,7 +4,7 @@ const dream = [
   [4, 2, 1]
 ];
 
-function findSafestPath(dream: number[][]): number {
+export function findSafestPath(dream: number[][]): number {
   const [rows, cols] = [dream.length, dream[0].length];
 
   // Usamos un solo array para almacenar los resultados
