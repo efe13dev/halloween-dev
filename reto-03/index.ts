@@ -1,9 +1,3 @@
-const dream = [
-  [1, 3, 1],
-  [1, 5, 1],
-  [4, 2, 1]
-];
-
 export function findSafestPath(dream: number[][]): number {
   const [rows, cols] = [dream.length, dream[0].length];
 
@@ -33,5 +27,3 @@ export function findSafestPath(dream: number[][]): number {
 
   return dp[cols - 1];
 }
-
-console.log(findSafestPath(dream));
