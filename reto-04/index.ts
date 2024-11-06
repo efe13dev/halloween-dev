@@ -26,13 +26,3 @@ export function findTheKiller(whisper: string, suspects: string[]): string {
     })
     .join(',');
 }
-
-const whisper = 'd~~~~~a';
-const suspects = [
-  'Dracula',
-  'Freddy Krueger',
-  'Jason Voorhees',
-  'Michael Myers'
-];
-
-console.log(findTheKiller(whisper, suspects));

@@ -59,13 +59,3 @@ export function escapePyramidHead(room: string[][]): number {
 
   return -1;
 }
-
-const room = [
-  ['.', '.', '#', '.', '▲'],
-  ['#', '.', '#', '.', '#'],
-  ['.', '.', '.', '.', '.'],
-  ['#', '#', '#', '.', '#'],
-  ['T', '.', '.', '.', '.']
-];
-
-console.log(escapePyramidHead(room));
